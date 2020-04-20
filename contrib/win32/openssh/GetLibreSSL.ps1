@@ -36,7 +36,7 @@ Write-Host "override:$override"
 
 $zip_path = Join-Path $PSScriptRoot "LibreSSL.zip"
 
-$release_url = "https://github.com/PowerShell/LibreSSL/releases/download/$version/LibreSSL.zip"
+$release_url = "https://github.com/aambrosano/LibreSSL/releases/download/$version/LibreSSL.zip"
 Write-Host "release_url:$release_url"
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor `

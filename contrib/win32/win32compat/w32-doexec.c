@@ -38,6 +38,7 @@
 #include "servconf.h"
 #include "pal_doexec.h"
 #include "misc_internal.h"
+#include <stdlib.h>
 
 #ifndef SUBSYSTEM_NONE
 #define SUBSYSTEM_NONE				0
